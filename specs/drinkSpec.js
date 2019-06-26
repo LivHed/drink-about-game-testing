@@ -1,3 +1,9 @@
+ describe("My whatCanIDrink function", function() {
+    // A test suite begins with a call to the global Jasmine function describe with two parameters: a string and a function.
+    beforeEach(function() {
+        drink = new whatCanIDrink();
+    });
+ 
  describe("Checks age", function() {
         // Specs are defined by calling the global Jasmine function it
         it("should exist", function() {
